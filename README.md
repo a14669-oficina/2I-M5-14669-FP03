@@ -7,55 +7,72 @@
 - Curso: GPSI – 2.º Ano
 
 <h2>🎯 Objetivo do Projeto 🎯</h2>
-O objetivo era criar um sistema de login para poder administrar uma tabela de alunos criados.
+O objetivo deste projeto foi desenvolver um sistema de login que permita autenticar utilizadores e, após o acesso, possibilite a administração de uma tabela de alunos. Essa administração inclui operações como adicionar, editar e remover registos, garantindo um controlo básico de dados através de uma interface web dinâmica.
 
 <h1>⚙️ Funcionalidades Desenvolvidas ⚙️</h2>
 As principais funcionalidades implementadas foram:
 
-- Ligação à base de dados usando PHP com PDO;
-- Listagem dos computadores disponíveis na base de dados;
-- Visualização das características técnicas de cada computador;
-- Consulta do software instalado em cada máquina;
-- Página individual com detalhes de cada computador;
-- Estrutura clara e organizada da informação apresentada;
-- Navegação simples e intuitiva entre as páginas do site.
+Sistema de registo e login de utilizadores
+Validação de credenciais (username e password)
+Sessões para controlo de utilizadores autenticados
+Proteção de páginas (acesso restrito após login)
+CRUD da tabela de alunos:
+Criar novos alunos
+Listar alunos existentes
+Editar informações
+Eliminar registos
+Ligação a base de dados (MySQL)
+Interface simples para gestão dos dados
 
 <h2>🤖 Utilização da Inteligência Artificial 🤖</h2>
 A Inteligência Artificial foi utilizada como ferramenta de apoio ao desenvolvimento do projeto, servindo como auxílio de aprendizagem.
 
 <h3>🔹 Aplicação da IA 🔹</h3>
-A IA foi utilizada para ajudar na:
-Escrita e correção de código em PHP;
-Identificação e resolução de erros no código;
-Sugestões de melhoria na organização e apresentação do site.
+A IA foi utilizada para:
+
+Esclarecer dúvidas sobre PHP, HTML, CSS e bases de dados
+Ajudar na criação de código (ex: sistema de login e sessões)
+Identificar e corrigir erros no código
+Sugerir melhorias na organização e estrutura do projeto
+Apoiar na compreensão de conceitos como autenticação e segurança
 
 <h3>🔹 Papel do Aluno 🔹</h3>
-Eu tive um papel ativo em todo o processo, sendo responsável por:
-Analisar e compreender as sugestões fornecidas pela IA;
-Estruturação da ligação à base de dados;
-Adaptar o código às necessidades específicas do projeto;
-Implementar e testar todas as funcionalidades;
-Garantir o correto funcionamento do site.
+O aluno teve um papel ativo em todo o processo:
+
+Compreensão e adaptação do código sugerido pela IA
+Implementação manual das funcionalidades
+Testes e validação do sistema
+Correção de erros e ajustes finais
+Organização do projeto e estrutura de ficheiros
 
 <h2>✍️ Trabalho Desenvolvido Manualmente ✍️</h2>
-O trabalho foi maioritariamente desenvolvido por mim, incluindo:
-Implementação final das páginas em PHP;
-Ligação correta à base de dados;
-Organização do código e dos ficheiros do projeto;
-Estruturação da base de dados;
-Decisões relativas ao funcionamento geral do site.
+Apesar do apoio da IA, grande parte do trabalho foi desenvolvido manualmente, incluindo:
+
+Criação da estrutura das páginas (HTML e CSS)
+Implementação da lógica em PHP
+Configuração da base de dados e tabelas
+Ligação entre frontend e backend
+Testes de funcionamento
+Personalização da interface
 
 <h2>🚧 Dificuldades Encontradas 🚧</h2>
-Criar queries SQL funcionais e eficientes;
-Estabelecer corretamente a ligação entre o PHP e a base de dados;
-Estas dificuldades foram ultrapassadas com testes, pesquisa e apoio da IA.
+Durante o desenvolvimento do projeto, foram encontradas algumas dificuldades, tais como:
+
+Implementação correta das sessões em PHP
+Ligação à base de dados e gestão de erros
+Validação de dados inseridos pelo utilizador
+Organização do código em vários ficheiros
+Resolução de erros inesperados no login
 
 <h2>📘 Aprendizagens Realizadas 📘</h2>
-Desenvolvimento de sites dinâmicos em PHP com base de dados;
-Utilização de PDO para ligação segura à base de dados;
-Estruturação de projetos web;
-Importância da organização e clareza do código;
-Utilização consciente e responsável da Inteligência Artificial como apoio ao desenvolvimento.
+Com a realização deste projeto, foram adquiridos vários conhecimentos:
+
+Criação de sistemas de autenticação em PHP
+Utilização de sessões para controlo de acesso
+Operações CRUD em bases de dados
+Ligação entre PHP e MySQL
+Estruturação de um projeto web dinâmico
+Importância da segurança (ex: validação e proteção de páginas)
 
 <h3>🔗 URL/Site do projeto: https://a14669-oficina.infinityfree.me/m5-login/index.php/</h3>
 
